@@ -23,7 +23,7 @@ const Hero = () => {
           </AnchorLink>
         </div>
         <a
-          href="/abinash_resume.pdf"
+          href={`${import.meta.env.BASE_URL}abinash_resume.pdf`}
           target="_blank"
           rel="noopener noreferrer"
           className="hero-resume"
