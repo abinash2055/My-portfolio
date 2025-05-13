@@ -95,25 +95,63 @@
 
 @media (max-width: 768px) {
     .footer {
-        margin: 50px 70px;
+        margin: 50px 20px;
+        gap: 40px;
     }
 
     .footer-top {
         flex-direction: column;
-        gap: 50px;
+        gap: 40px;
+        text-align: center;
     }
 
     .footer-top-left p {
         max-width: 100%;
+        font-size: 18px;
     }
 
     .footer-top-right {
         flex-direction: column;
         gap: 20px;
+        align-items: center;
+    }
+
+    .footer-social-icons {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .footer-social-icons img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-email-input {
+        flex-direction: column;
+        gap: 15px;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .footer-email-input input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .footer-subscribe {
+        width: 100%;
+        font-size: 18px;
+        padding: 18px 40px;
     }
 
     .footer-bottom {
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .footer-bottom-right {
+        flex-direction: column;
+        gap: 30px;
     }
 }

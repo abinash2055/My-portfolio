@@ -82,7 +82,7 @@
     .services {
         align-items: start;
         gap: 70px;
-        margin: 20px 70px;
+        margin: 40px 50px;
     }
 
     .services-title h1 {
@@ -98,6 +98,7 @@
     .services-format {
         gap: 20px;
         padding: 32px;
+        width: 100%;
     }
 
     .services-format h2 {
@@ -117,5 +118,47 @@
     .services-container {
         grid-template-columns: 1fr 1fr;
         gap: 30px;
+    }
+}
+
+
+@media(max-width: 480px) {
+    .services {
+        margin: 20px;
+        gap: 50px;
+    }
+
+    .services-title h1 {
+        font-size: 36px;
+    }
+
+    .services-title img {
+        width: 100px;
+    }
+
+    .services-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .services-format {
+        padding: 24px;
+    }
+
+    .services-format h2 {
+        font-size: 24px;
+    }
+
+    .services-format p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .services-readmore {
+        gap: 12px;
+    }
+
+    .services-readmore img {
+        width: 16px;
     }
 }
