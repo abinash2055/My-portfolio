@@ -73,7 +73,7 @@
   .timeline-details {
     display: flex;
     flex-direction: row;
-    align-items: start;
+    align-items: center;
   }
   
   .timeline-img {
@@ -106,7 +106,7 @@
   
   .experience-readmore {
     display: flex;
-    align-items: center;
+    align-items: start;
     gap: 10px;
     margin-top: 10px;
     cursor: pointer;
