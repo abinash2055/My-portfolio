@@ -73,7 +73,7 @@
   .timeline-details {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: start;
   }
   
   .timeline-img {
