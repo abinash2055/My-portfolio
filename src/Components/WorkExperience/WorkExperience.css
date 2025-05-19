@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px;
-    margin: 80px 170px;
+    gap: 5rem;
+    margin: 5rem 10.625rem;
 }
 
 .experience-title {
@@ -12,8 +12,9 @@
 }
 
 .experience-title h1{
-    position: 0px 30px;
-    font-size: 80px;
+    position: relative;
+    left: 1.875rem;
+    font-size: 5rem;
     font-weight: 600;
 }
 
@@ -26,15 +27,17 @@
 
 /* timeline */
 .timeline {
-    position: relative;
-    border-left: 3px solid #b415ff;
-    padding-left: 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    width: 100%;
-    max-width: 1000px;
-  }
+  position: relative;
+  padding-left: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  width: 100%;
+  max-width: 62.5rem;
+  margin-top: 0;
+  padding-top: 0;
+  align-items: flex-start;
+}
   
   .timeline-item {
     position: relative;
@@ -42,31 +45,31 @@
   }
   
   .timeline-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(180, 21, 255, 0.1);
+    transform: translateY(-0.3125rem);
+    box-shadow: 0 0.75rem 1.5rem rgba(180, 21, 255, 0.1);
   }
-  
+
   .timeline-tag {
     position: absolute;
-    left: -55px;
+    left: -3.4375rem;
     top: 0;
     background: linear-gradient(135deg, #b415ff, #9312e0);
     color: white;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     border-radius: 50%;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: bold;
-    box-shadow: 0 4px 10px rgba(180, 21, 255, 0.5);
+    box-shadow: 0 0.25rem 0.625rem rgba(180, 21, 255, 0.5);
   }
   
   .timeline-item-content {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 1.25rem;
     background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 24px;
-    border-radius: 18px;
+    border: 0.0625rem solid rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 1.125rem;
     backdrop-filter: blur(8px);
   }
   
@@ -77,42 +80,42 @@
   }
   
   .timeline-img {
-    width: 80px;
-    height: 80px;
+    width: 5rem;
+    height: 5rem;
     object-fit: cover;
     border-radius: 50%;
-    border: 2px solid #b415ff;
-    margin-right: 20px;
+    border:  0.125rem solid #b415ff;
+    margin-right: 1.25rem;
   }
   
   .timeline-text h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #f4f4f4;
-    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
   }
   
   .timeline-text h4 {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #cba6f7;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   
   .timeline-text p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #d0d0d0;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
     line-height: 1.6;
   }
   
   .experience-readmore {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-top: 10px;
+    gap: 0.625rem;
+    margin-top: 0.625rem;
     cursor: pointer;
     transition: transform 0.3s ease;
-    border-radius: 8px;
-    padding: 10px 20px;
+    border-radius:0.5rem;;
+    padding: 0.625rem 1.25rem;
   }
   
   .experience-readmore:hover {
@@ -122,12 +125,12 @@
   .experience-readmore p {
     color: white; 
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   
   .experience-readmore img {
-    width: 18px;
-    height: 18px;
+    width: 1.125rem;
+    height: 1.125rem;
     filter: invert(58%) sepia(76%) saturate(747%) hue-rotate(255deg) brightness(92%) contrast(94%);
   }
   
@@ -138,17 +141,19 @@
   
     .timeline {
       padding-left: 1.25rem;
+      max-width: 100%;
     }
   
     .timeline-item-content {
       flex-direction: column;
       align-items: flex-start;
+      max-width: 100%;
     }
   
     .timeline-img {
       width: 3.75rem;
-    height: 3.75rem; 
-    margin-bottom: 0.75rem;
+      height: 3.75rem; 
+      margin-bottom: 0.75rem;
     }
   
     .timeline-text h3 {
@@ -165,6 +170,6 @@
   
     .timeline-tag {
       left: -2.5rem; 
-    top: 0;
+      top: 0;
     }
   }

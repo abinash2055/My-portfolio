@@ -1,8 +1,9 @@
-import React from "react";
+import React from 'react'
 import "./WorkExperience.css";
 import theme_pattern from "../../assets/theme_pattern.svg";
 import WorkExperience_Data from "../../assets/workexperience_data.js";
 import arrow_icon from "../../assets/arrow_icon.svg";
+
 
 const WorkExperience = () => {
   return (
@@ -12,13 +13,13 @@ const WorkExperience = () => {
         <img src={theme_pattern} alt="Pattern" />
       </div>
 
-      {/* Timeline */}
+      {/* Timeline  */}
       <div className="timeline">
         {WorkExperience_Data.map((data) => (
           <div className="timeline-item" key={data.s_no}>
             <div className="timeline-item-content">
               <span className="timeline-tag">{data.s_no}</span>
-              <div className="timeline-card">
+              <div className="timeline-details">
                 <img
                   src={data.img}
                   alt={data.s_name}
@@ -26,10 +27,10 @@ const WorkExperience = () => {
                 />
                 <div className="timeline-text">
                   <h3>{data.s_name}</h3>
-                  <h4>{data.s_duration}</h4>
-                  <p>{data.s_position}</p>
-                  <p>{data.s_post}</p>
-                  <p>{data.s_location}</p>
+                  <h4>{data.s_duration}</h4> 
+                  <p>{data.s_position}</p> 
+                  <p>{data.s_post}</p> 
+                    <p>{data.s_location}</p>
                   <p>{data.s_desc}</p>
                   <div className="experience-readmore">
                     <p>Read More</p>
@@ -45,4 +46,4 @@ const WorkExperience = () => {
   );
 };
 
-export default WorkExperience;
+export default WorkExperience
