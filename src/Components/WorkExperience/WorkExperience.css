@@ -30,6 +30,7 @@
     border-left: 3px solid #b415ff;
     padding-left: 40px;
     display: flex;
+    align-items: flex-start;
     flex-direction: column;
     gap: 40px;
     width: 100%;
@@ -106,7 +107,7 @@
   
   .experience-readmore {
     display: flex;
-    align-items: start;
+    align-items: center;
     gap: 10px;
     margin-top: 10px;
     cursor: pointer;
