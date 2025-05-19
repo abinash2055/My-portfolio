@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 80px;
-    margin: 80px 170px;
+    gap: 5rem;
+  margin: 5rem 10.625rem;
 }
 
 .education-title {
@@ -12,8 +12,9 @@
 }
 
 .education-title h1{
-    position: 0px 30px;
-    font-size: 80px;
+    position: 0rem 1.875rem;
+    padding: 0rem 1.875rem;
+    font-size: 5rem;
     font-weight: 600;
 }
 
@@ -28,12 +29,12 @@
   .timeline {
     position: relative;
     border-left: 3px solid #b415ff;
-    padding-left: 40px;
+    padding-left: 2.5rem;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5rem;
     width: 100%;
-    max-width: 1000px;
+    max-width: 62.5rem;
   }
   
   .timeline-item {
@@ -43,30 +44,30 @@
   
   .timeline-item:hover {
     transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(180, 21, 255, 0.1);
+    box-shadow: 0 0.75rem 1.5rem rgba(180, 21, 255, 0.1);
   }
   
   .timeline-tag {
     position: absolute;
-    left: -55px;
+    left: -3.4375rem;
     top: 0;
     background: linear-gradient(135deg, #b415ff, #9312e0);
     color: white;
-    padding: 12px 16px;
+    padding: 0.75rem 1rem;
     border-radius: 50%;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: bold;
-    box-shadow: 0 4px 10px rgba(180, 21, 255, 0.5);
+    box-shadow: 0 0.25rem 0.625rem rgba(180, 21, 255, 0.5);
   }
   
   .timeline-item-content {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 1.25rem;
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 24px;
-    border-radius: 18px;
+    padding: 1.5rem;
+    border-radius: 1.125rem;
     backdrop-filter: blur(8px);
   }
   
@@ -77,72 +78,75 @@
   }
   
   .timeline-img {
-    width: 80px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 2px solid #b415ff;
-    margin-right: 20px;
+    width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0.125rem solid #b415ff;
+  margin-right: 1.25rem;
   }
   
   .timeline-text h3 {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #f4f4f4;
-    margin-bottom: 4px;
+    margin-bottom: 0.25rem;
   }
   
   .timeline-text h4 {
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #cba6f7;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
   }
   
   .timeline-text p {
-    font-size: 16px;
+    font-size: 1rem;
     color: #d0d0d0;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
     line-height: 1.6;
   }
   
   .education-readmore {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-top: 10px;
+    gap: 0.625rem;
+    margin-top: 0.625rem;
     cursor: pointer;
     transition: transform 0.3s ease;
-    border-radius: 8px;
-    padding: 10px 20px;
+    border-radius: 0.5rem;
+    padding: 0.625rem 1.25rem;
   }
   
   .education-readmore:hover {
-    transform: translateX(5px);
+    transform: translateX(0.3125rem);
   }
   
   .education-readmore p {
     color: white; 
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   
   .education-readmore img {
-    width: 18px;
-    height: 18px;
+    width: 1.125rem;
+    height: 1.125rem;
     filter: invert(58%) sepia(76%) saturate(747%) hue-rotate(255deg) brightness(92%) contrast(94%);
   }
   
+  /* Responsive - Tablet and Mobile */
   @media (max-width: 768px) {
     .education {
-      margin: 50px 40px;
-      gap: 60px;
+      margin: 3.125rem 2.5rem;
+      gap: 3.75rem;
+      align-items: center;
     }
 
     .education-title h1 {
-      font-size: 40px;
+      font-size: 3.75rem;
+      padding: 0;
     }
   
     .timeline {
-      padding-left: 20px;
+      padding-left: 1.25rem;
     }
   
     .timeline-item-content {
@@ -151,17 +155,17 @@
     }
   
     .timeline-img {
-      width: 60px;
-      height: 60px;
-      margin-bottom: 12px;
+      width: 3.75rem;
+      height: 3.75rem;
+      margin-bottom: 0.75rem;
     }
   
     .timeline-text h3 {
-      font-size: 22x;
+      font-size: 1.375rem;
     }
   
     .timeline-text h4 {
-      font-size: 14px;
+      font-size: 0.875rem;
     }
   
     .timeline-text p {
@@ -169,22 +173,22 @@
     }
   
     .timeline-tag {
-      left: -40px;
+      left: -2.5rem;
       top: 0;
     }
     .education-readmore p {
-      font-size: 18px;
+      font-size: 1.125rem;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .education {
-      gap: 40px;
-      margin: 30px 20px;
+    gap: 2.5rem;
+    margin: 1.875rem 1.25rem;
   }
 
   .education-title h1 {
-      font-size: 45px;
+    font-size: 2.8125rem;
   }
 
   .timeline {
@@ -203,11 +207,11 @@
   }
 
   .timeline-text h3 {
-      font-size: 18px;
+      font-size: 1.125rem;
   }
 
   .timeline-text h4 {
-      font-size: 14px;
+      font-size: 0.875rem;
   }
 
   .timeline-text p {
@@ -215,12 +219,12 @@
   }
 
   .timeline-tag {
-      left: -30px;
+      left: -1.875rem;
       top: 0;
   }
 
   .education-readmore p {
-      font-size: 16px;
+      font-size: 1rem;
   }
 
   .education-readmore img {
