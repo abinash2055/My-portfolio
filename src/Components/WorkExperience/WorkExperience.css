@@ -30,7 +30,6 @@
     border-left: 3px solid #b415ff;
     padding-left: 40px;
     display: flex;
-    align-items: flex-start;
     flex-direction: column;
     gap: 40px;
     width: 100%;
@@ -63,18 +62,6 @@
   .timeline-item-content {
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 24px;
-    border-radius: 18px;
-    backdrop-filter: blur(8px);
-  }
-
-  .timeline-card {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     gap: 20px;
     background: rgba(255, 255, 255, 0.04);
     border: 1px solid rgba(255, 255, 255, 0.1);
